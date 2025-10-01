@@ -1,13 +1,13 @@
-# 💸 Refund
+ 💸 Refund
 
-## 📌 Sobre
+📌 Sobre
 
-Aplicação de controle de despesas em **HTML, CSS e JavaScript**.  
+Aplicação de controle de despesas em HTML, CSS e JavaScript.  
 Permite adicionar gastos, remover itens e acompanhar o total atualizado em tempo real.
 
 ---
 
-## 🚀 Funcionalidades
+🚀 Funcionalidades
 
 - Adicionar despesas com nome, categoria e valor
 - Atualização automática do total e quantidade de itens
@@ -16,7 +16,7 @@ Permite adicionar gastos, remover itens e acompanhar o total atualizado em tempo
 
 ---
 
-## 🛠 Tecnologias
+🛠 Tecnologias
 
 - HTML5
 - CSS3
@@ -24,10 +24,10 @@ Permite adicionar gastos, remover itens e acompanhar o total atualizado em tempo
 
 ---
 
-## ▶️ Como executar
+▶️ Como executar
 
 Clone este repositório:
 
 ```bash
 git clone https://github.com/JubesMaci/refund_project
-```
+
