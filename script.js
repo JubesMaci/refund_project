@@ -12,6 +12,7 @@ amount.oninput = () => {
   amount.value = formatCurrencyBRL(value);
 };
 
+//formata os valores para BRL
 function formatCurrencyBRL(value) {
   value = value.toLocaleString("pt-BR", {
     style: "currency",
@@ -20,10 +21,7 @@ function formatCurrencyBRL(value) {
   return value;
 }
 
-form.onsubmit = (event) => {
-  event.preventDefault();
-};
-
+//captura o evento de submit do forms
 form.onsubmit = (event) => {
   event.preventDefault();
 
@@ -38,6 +36,7 @@ form.onsubmit = (event) => {
   expenseAdd(newExpense);
 };
 
+//adiciona um novo item a lista
 function expenseAdd(newExpense) {
   try {
     const expenseItem = document.createElement("li");
